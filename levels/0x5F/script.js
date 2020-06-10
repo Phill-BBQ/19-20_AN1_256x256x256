@@ -17,7 +17,7 @@ function mouseEnter(event){
 }
 
 function sound(event){
-    if(event.intensity=500){
+    if(event.intensity=100){
         
 	console.log(event);
 	AppManager.levelComplete(); document.querySelector(".phase2").classList.add("hide");
